@@ -1,0 +1,17 @@
+label + .rangeDate {
+  flex-wrap: nowrap;
+}
+
+.rangeDate input[type="text"] {
+  height: 38px;
+  border-radius: 4px 0 0 4px;
+}
+
+.rangeDate .inputGroupText + div input[type="text"] {
+  border-radius: 0 4px 4px 0;
+}
+
+.rangeDate .inputGroupText {
+  height: 38px;
+  border-radius: 0;
+}
